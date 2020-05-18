@@ -286,7 +286,7 @@ int main(int argc, char* argv[]) {
     if (gesture_index < label_num) {
 
       error_reporter->Report(config.output_message[gesture_index]);
-
+      printf("%d\n",gesture_index);
     }
 
   }
